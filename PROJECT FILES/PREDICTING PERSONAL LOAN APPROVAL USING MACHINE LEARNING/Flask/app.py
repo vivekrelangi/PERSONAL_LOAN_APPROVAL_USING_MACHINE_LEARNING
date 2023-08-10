@@ -7,7 +7,8 @@ from flask import Flask, request, render_template
 
 app = Flask(__name__)#, template_folder='template'
 #file = open(r'rdf.pkl','rb')
-model = pickle.load(open(r'rdf.pkl', 'rb'))
+#model = pickle.load(open(r'rdf.pkl', 'rb'))
+model = pickle.load(open(r'gb.pkl', 'rb'))
 #model = pickle.load(file)
 scale = pickle.load(open(r'scale1.pkl','rb'))
 
